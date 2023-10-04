@@ -37,7 +37,7 @@ export default function Logoslider() {
 
    <div className='pt-16'>
      <Swiper
-        slidesPerView={isMobile?1:5}
+        slidesPerView={isMobile?1:4}
         spaceBetween={30}
         autoplay ={true} 
         loop={true}
@@ -57,10 +57,9 @@ export default function Logoslider() {
         <SwiperSlide><img src={adcombo}/></SwiperSlide>
         <SwiperSlide><img src={kmbiz}/></SwiperSlide>
         {/* <SwiperSlide><img src={leadrock}/></SwiperSlide> */}
-        <SwiperSlide><img src={lr}/></SwiperSlide>
+        {/* <SwiperSlide><img src={lr}/></SwiperSlide> */}
         <SwiperSlide><img src={sn}/></SwiperSlide>
         <SwiperSlide><img src={terra}/></SwiperSlide>
-        {/* <SwiperSlide><img src={adcombo}/></SwiperSlide> */}
         {/* <SwiperSlide><img src={metacpa}/></SwiperSlide>
         <SwiperSlide><img src={monadlead}/></SwiperSlide>
         <SwiperSlide><img src={afstar}/></SwiperSlide>

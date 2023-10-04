@@ -12,6 +12,7 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Autoplay } from 'swiper/modules';
+import '../../App.css'
 
 
 
@@ -70,9 +71,10 @@ export default function About({ testdata }) {
                 spaceBetween={30}
                 autoplay={true}
                 loop={true}
+                
 
                 autoplay={{
-                  delay: 500,
+                  delay: 1800,
                   disableOnInteraction: false,
                 }}
 
