@@ -26,9 +26,11 @@ export default function Advantages() {
     const isMobile = useMediaQuery({ maxWidth: 767 });
 
     const backgroundImageUrl = 'url("https://raw.githubusercontent.com/khurshid2idrees/traffury-new-806f317ab04a94d0e5582a1e39ca5cc40a33006c-main/main/src/assets/images/advantageslogo/advantagebg.png")';
+    
+    const backgroundMobileImageURL = 'url("https://raw.githubusercontent.com/khurshid2idrees/traffury-new-806f317ab04a94d0e5582a1e39ca5cc40a33006c-main/main/src/assets/images/advantageslogo/mobileadvantage.png")';
 
     const containerStyle = {
-        backgroundImage: backgroundImageUrl,
+        backgroundImage: isMobile?backgroundMobileImageURL:backgroundImageUrl,
         backgroundSize: 'cover', // Adjust as needed
         backgroundRepeat: 'no-repeat', // Adjust as needed
         backgroundPosition: 'center', // Adjust as needed
@@ -106,34 +108,66 @@ export default function Advantages() {
 
      {/* Mobile view start  */}
 
-     <div className=" md:hidden px-3 md:lg:xl:px-28     borderremove-t borderremove-b py-20 bg-opacity-10 pb-44 " id="advantage" style={containerStyle}>
+     {/* <div className=" md:hidden px-3 md:lg:xl:px-28     borderremove-t borderremove-b py-20 bg-opacity-10 pb-44 " id="advantage" style={containerStyle}>
                 <h1 className='text-center text-5xl font-bold font-gotham  pb-4 text-white'>Our Advantages</h1>
 
                 
-                <div class="grid grid-cols-1 md:lg:xl:grid-cols-3 group bg-white noshaddow-xl noshaddow-neutral-100 borderremove " style={{ background: 'none' }}>
+                <div class="grid grid-cols-1 md:lg:xl:grid-cols-3 group bg-white noshaddow-xl noshaddow-neutral-100 borderremove " style={{ background: 'none' }}> */}
 
                     
+                <Swiper
+        slidesPerView={isMobile?1:4}
+        spaceBetween={30}
+        autoplay ={true} 
+        loop={true}
+        
+        autoplay={{
+          delay: 30000,
+          disableOnInteraction: false,
+        }}
 
-                    {advdata.map((data) => (
-                        <div key={data.id}
-                            class="p-10 flex flex-col items-center text-center group md:lg:xl:borderremove-r md:lg:xl:borderremove-b   cursor-pointer">
-                            <img src={data.img} width={170} alt="" />
+        modules={[Autoplay]}
+        // pagination={{
+        //   clickable: true,
+        // }}
+        // modules={[Pagination]}
+        className="mySwiper"
+      >
 
-                            <p class="text-xl font-semibold  mt-6 text-white ">{data.desc}</p>
+{advdata.map((data) => (
 
-                            
-                        </div>
+    //    <div className=" md:hidden px-3 md:lg:xl:px-28     borderremove-t borderremove-b py-20 bg-opacity-10 pb-44 " id="advantage" style={containerStyle}>
+    //             <h1 className='text-center text-5xl font-bold font-gotham  pb-4 text-white'>Our Advantages</h1>
 
-                    ))}
+                
+    //             <div class="grid grid-cols-1 md:lg:xl:grid-cols-3 group bg-white noshaddow-xl noshaddow-neutral-100 borderremove " style={{ background: 'none' }}> 
 
-                </div>
+
+
+<SwiperSlide>                        
+<div key={data.id} style={containerStyle}
+    class="p-10 flex flex-col items-center text-center group md:lg:xl:borderremove-r md:lg:xl:borderremove-b   cursor-pointer">
+    <img src={data.img} width={170} alt="" />
+
+    <p class="text-xl font-semibold  mt-6 text-white ">{data.desc}</p>
+
+    
+</div>
+</SwiperSlide>
+
+
+))}
+      </Swiper>
+                  
+
+                {/* </div> */}
 
                 
 
                 
 
 
-            </div>
+            {/* </div> */}
 
         {/* Mobile view end      */}
         </>
