@@ -1,6 +1,8 @@
 import React from 'react';
 import tfbanner from '../../assets/images/tf-banner.jpg';
 import mottoketo from '../../assets/images/headerimg/giphy.gif'
+import bannermobile from '../../assets/images/headerimg/bannermobile .jpg';
+import { useMediaQuery } from 'react-responsive';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -15,6 +17,8 @@ import { Autoplay } from 'swiper/modules';
 
 
 export default function Header() {
+
+  const isMobile = useMediaQuery({maxWidth:767});
 
     const links = [
 
@@ -37,7 +41,7 @@ export default function Header() {
   return (
     <div className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32 z-0" id="header">
       <img
-      src={tfbanner}
+      src={isMobile?bannermobile:tfbanner}
         alt=""
         className="absolute inset-0 -z-10 h-full w-full object-cover object-right md:object-center"
       />
@@ -88,7 +92,7 @@ export default function Header() {
 
   <div className='z-10 mr-36 mt-16'>
     
-    <img src={mottoketo} alt="" width={300} />
+    <img src={isMobile?null:mottoketo} alt="" width={300} />
   </div>
 
         

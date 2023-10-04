@@ -146,8 +146,8 @@ export default function Advantages() {
 
 <SwiperSlide>                        
 <div key={data.id} style={containerStyle}
-    class="p-10 flex flex-col items-center text-center group md:lg:xl:borderremove-r md:lg:xl:borderremove-b   cursor-pointer">
-    <img src={data.img} width={170} alt="" />
+    class="md:hidden p-10 flex flex-col items-center text-center group md:lg:xl:borderremove-r md:lg:xl:borderremove-b   cursor-pointer">
+    <img src={data.img} width={100} alt="" />
 
     <p class="text-xl font-semibold  mt-6 text-white ">{data.desc}</p>
 
