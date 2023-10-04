@@ -25,7 +25,7 @@ export default function Advantages() {
 
     const isMobile = useMediaQuery({ maxWidth: 767 });
 
-    const backgroundImageUrl = 'url("https://raw.githubusercontent.com/khurshid2idrees/traffury/master/src/assets/images/advantageslogo/advantagebg.png")';
+    const backgroundImageUrl = 'url("https://raw.githubusercontent.com/khurshid2idrees/traffury-new-806f317ab04a94d0e5582a1e39ca5cc40a33006c-main/main/src/assets/images/advantageslogo/advantagebg.png")';
 
     const containerStyle = {
         backgroundImage: backgroundImageUrl,
