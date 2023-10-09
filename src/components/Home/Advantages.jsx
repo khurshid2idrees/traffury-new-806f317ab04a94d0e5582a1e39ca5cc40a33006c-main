@@ -122,7 +122,7 @@ export default function Advantages() {
         loop={true}
         
         autoplay={{
-          delay: 30000,
+          delay: 1000,
           disableOnInteraction: false,
         }}
 
@@ -147,6 +147,8 @@ export default function Advantages() {
 <SwiperSlide>                        
 <div key={data.id} style={containerStyle}
     class="md:hidden p-10 flex flex-col items-center text-center group md:lg:xl:borderremove-r md:lg:xl:borderremove-b   cursor-pointer">
+                        <h1 className='text-center text-3xl font-bold font-gotham  pb-4 text-white'>Our Advantages</h1>
+
     <img src={data.img} width={100} alt="" />
 
     <p class="text-xl font-semibold  mt-6 text-white ">{data.desc}</p>

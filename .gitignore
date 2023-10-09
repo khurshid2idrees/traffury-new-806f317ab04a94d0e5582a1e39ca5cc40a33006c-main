@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+# productin
+/build
 
 
 # misc

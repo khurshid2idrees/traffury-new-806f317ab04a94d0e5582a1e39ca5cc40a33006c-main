@@ -1,4 +1,23 @@
 import React from 'react';
+
+import { useMediaQuery } from 'react-responsive';
+
+
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+// import required modules
+import { Autoplay } from 'swiper/modules';
+
+
+
+
+
 import product1 from '../../assets/images/product-1.jpg'
 
 import Penirun from '../../assets/images/hotoffers/penirun.png';
@@ -9,6 +28,8 @@ import longnights from '../../assets/images/hotoffers/longnights.png';
 import fat2fit from '../../assets/images/hotoffers/fat2fit.png';
 import diafix from '../../assets/images/hotoffers/diafix.png';
 import sexup from '../../assets/images/hotoffers/sexup.png';
+
+
 
 
 const products = [
@@ -90,9 +111,72 @@ const products = [
   ]
 
 export default function Hotoffers() {
+  const isMobile = useMediaQuery({ maxWidth: 767 });
   return (
    <>
-   <div className="bg-white" id="hotoffers">
+
+   {isMobile?(
+   <div className="bg-white " id="hotoffers">
+      <div className="mx-auto max-w-2xl px-4 pb-16 sm:px-6 sm:pb-24 lg:max-w-7xl lg:px-8">
+      <h1 className='text-center text-5xl font-bold font-gotham  py-4'>Hot Offers</h1>
+      <h2 className="text-xl font-semibold  text-center mt-4 text-gray-500 font-gotham">Available 300+ offers in 5 countries.</h2>
+
+      <Swiper
+        slidesPerView={isMobile?1:4}
+        spaceBetween={30}
+        autoplay ={true} 
+        loop={true}
+        
+        autoplay={{
+          delay: 1800,
+          disableOnInteraction: false,
+        }}
+
+        modules={[Autoplay]}
+    
+        className="mySwiper"
+      >
+
+{products.map((product) => (
+<SwiperSlide> 
+
+        <div className="mt-6" >
+         
+            <div key={product.id} className="group relative" >
+              <div style={{widthL:'30rem'}} className=" w-full overflow-hidden rounded-md bg-gray-200  group-hover:opacity-75 ">
+                <img
+                  src={product.imageSrc}
+                  alt={product.imageAlt}
+                  className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                />
+              </div>
+              <div className="mt-4 flex justify-between">
+                <div>
+                  <h3 className="text-sm text-gray-700">
+                    <a href={product.href}>
+                      <span aria-hidden="true" className="absolute inset-0" />
+                      {product.name}
+                    </a>
+                  </h3>
+                  {/* <p className="mt-1 text-sm text-gray-500">{product.color}</p> */}
+                </div>
+                <p className="text-sm font-medium text-gray-900">{product.price}</p>
+              </div>
+            </div>
+          
+        </div>
+
+
+
+        </SwiperSlide>
+
+
+))}
+      </Swiper>
+      </div>
+    </div>):(
+      
+      <div className="bg-white " id="hotoffers">  
       <div className="mx-auto max-w-2xl px-4 pb-16 sm:px-6 sm:pb-24 lg:max-w-7xl lg:px-8">
       <h1 className='text-center text-5xl font-bold font-gotham  py-4'>Hot Offers</h1>
       <h2 className="text-xl font-semibold  text-center mt-4 text-gray-500 font-gotham">Available 300+ offers in 5 countries.</h2>
@@ -116,7 +200,7 @@ export default function Hotoffers() {
                       {product.name}
                     </a>
                   </h3>
-                  {/* <p className="mt-1 text-sm text-gray-500">{product.color}</p> */}
+                 
                 </div>
                 <p className="text-sm font-medium text-gray-900">{product.price}</p>
               </div>
@@ -124,7 +208,8 @@ export default function Hotoffers() {
           ))}
         </div>
       </div>
-    </div>
+    </div>)}
+              
    </>
   )
 }
