@@ -72,7 +72,7 @@ export default function About({ testdata }) {
                 autoplay={true}
                 loop={true}
                 
-
+                speed={1800}
                 autoplay={{
                   delay: 1800,
                   disableOnInteraction: false,

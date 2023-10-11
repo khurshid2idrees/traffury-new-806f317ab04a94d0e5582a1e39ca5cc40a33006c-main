@@ -98,8 +98,6 @@ export default function Advantages() {
                 
 
                 
-
-
             </div>
 
      {/* Desktop view end         */}
@@ -117,7 +115,8 @@ export default function Advantages() {
         spaceBetween={30}
         autoplay ={true} 
         loop={true}
-
+        speed={1000}
+        
         
         
         autoplay={{
@@ -134,12 +133,6 @@ export default function Advantages() {
       >
 
 {advdata.map((data) => (
-
-    //    <div className=" md:hidden px-3 md:lg:xl:px-28     borderremove-t borderremove-b py-20 bg-opacity-10 pb-44 " id="advantage" style={containerStyle}>
-    //             <h1 className='text-center text-5xl font-bold font-gotham  pb-4 text-white'>Our Advantages</h1>
-
-                
-    //             <div class="grid grid-cols-1 md:lg:xl:grid-cols-3 group bg-white noshaddow-xl noshaddow-neutral-100 borderremove " style={{ background: 'none' }}> 
 
 
 

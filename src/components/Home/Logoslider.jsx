@@ -41,9 +41,9 @@ export default function Logoslider() {
         spaceBetween={30}
         autoplay ={true} 
         loop={true}
-        
+        speed={1200}
         autoplay={{
-          delay: 500,
+          delay: 1200,
           disableOnInteraction: false,
         }}
 

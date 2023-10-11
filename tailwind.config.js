@@ -19,7 +19,7 @@ module.exports = {
     },
 
     backgroundImage: {
-      'hero-pattern': "url('https://raw.githubusercontent.com/khurshid2idrees/traffury/master/src/assets/images/abt-slide-bg.jpg')",
+      'hero-pattern': "url('https://raw.githubusercontent.com/khurshid2idrees/traffury-new-806f317ab04a94d0e5582a1e39ca5cc40a33006c-main/main/src/assets/images/abt-slide-bg.jpg')",
     
       
     }

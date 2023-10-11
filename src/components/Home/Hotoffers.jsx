@@ -126,6 +126,7 @@ export default function Hotoffers() {
         spaceBetween={30}
         autoplay ={true} 
         loop={true}
+        speed={1800}
         
         autoplay={{
           delay: 1800,
