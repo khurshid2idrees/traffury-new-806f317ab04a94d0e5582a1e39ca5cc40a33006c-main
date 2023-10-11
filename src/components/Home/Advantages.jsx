@@ -79,7 +79,7 @@ export default function Advantages() {
                 <h1 className='text-center text-5xl font-bold font-gotham  pb-4 text-white'>Our Advantages</h1>
 
                 
-                <div class="grid grid-cols-1 md:lg:xl:grid-cols-3 group bg-white noshaddow-xl noshaddow-neutral-100 borderremove " style={{ background: 'none' }}>
+                <div class="grid lg:grid-cols-3 grid-cols-1  group bg-white noshaddow-xl noshaddow-neutral-100 borderremove " style={{ background: 'none' }}>
 
                     {advdata.map((data) => (
                         <div key={data.id}
@@ -108,12 +108,7 @@ export default function Advantages() {
 
      {/* Mobile view start  */}
 
-     {/* <div className=" md:hidden px-3 md:lg:xl:px-28     borderremove-t borderremove-b py-20 bg-opacity-10 pb-44 " id="advantage" style={containerStyle}>
-                <h1 className='text-center text-5xl font-bold font-gotham  pb-4 text-white'>Our Advantages</h1>
-
-                
-                <div class="grid grid-cols-1 md:lg:xl:grid-cols-3 group bg-white noshaddow-xl noshaddow-neutral-100 borderremove " style={{ background: 'none' }}> */}
-
+    
                     
                 <Swiper
         slidesPerView={isMobile?1:4}
@@ -162,16 +157,10 @@ export default function Advantages() {
       </Swiper>
                   
 
-                {/* </div> */}
-
-                
-
-                
-
-
-            {/* </div> */}
+            
 
         {/* Mobile view end      */}
+        
         </>
     )
 }
