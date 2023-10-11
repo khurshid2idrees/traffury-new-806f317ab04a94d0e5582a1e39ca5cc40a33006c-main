@@ -75,7 +75,7 @@ export default function Advantages() {
         <>
 
 {/* Desktop view start  */}
-            <div className=" md:block hidden px-3 md:lg:xl:px-28     borderremove-t borderremove-b py-20 bg-opacity-10 pb-44 " id="advantage" style={containerStyle}>
+            <div className=" md:block hidden px-3 md:lg:xl:px-28     borderremove-t borderremove-b py-20 bg-opacity-10 pb-44 " id={isMobile?null:"advantage"} style={containerStyle}>
                 <h1 className='text-center text-5xl font-bold font-gotham  pb-4 text-white'>Our Advantages</h1>
 
                 
@@ -109,12 +109,16 @@ export default function Advantages() {
      {/* Mobile view start  */}
 
     
+
+    <div id="advantage" ></div>
                     
                 <Swiper
         slidesPerView={isMobile?1:4}
         spaceBetween={30}
         autoplay ={true} 
         loop={true}
+
+        
         
         autoplay={{
           delay: 1000,
@@ -140,7 +144,7 @@ export default function Advantages() {
 
 
 <SwiperSlide>                        
-<div key={data.id} style={containerStyle}
+<div key={data.id} style={containerStyle} 
     class="md:hidden p-10 flex flex-col items-center text-center group md:lg:xl:borderremove-r md:lg:xl:borderremove-b   cursor-pointer">
                         <h1 className='text-center text-3xl font-bold font-gotham  pb-4 text-white'>Our Advantages</h1>
 
