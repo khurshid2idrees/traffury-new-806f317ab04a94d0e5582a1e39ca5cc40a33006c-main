@@ -12,8 +12,6 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Autoplay } from 'swiper/modules';
-
-
 import apilogo from '../../assets/images/advantageslogo/api.png'
 import crmlogo from '../../assets/images/advantageslogo/crm.png'
 import callcentericon from '../../assets/images/advantageslogo/callCenterIcon.png'
