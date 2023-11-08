@@ -73,7 +73,7 @@ export default function Advantages() {
         <>
 
 {/* Desktop view start  */}
-            <div className=" md:block hidden px-3 md:lg:xl:px-28     borderremove-t borderremove-b py-20 bg-opacity-10 pb-44 " id={isMobile?null:"advantage"} style={containerStyle}>
+            <div className=" md:block hidden px-3 md:lg:xl:px-28     borderremove-t borderremove-b py-20 bg-opacity-10  " id={isMobile?null:"advantage"} style={containerStyle}>
                 <h1 className='text-center text-5xl font-bold font-gotham  pb-4 text-white'>Our Advantages</h1>
 
                 
