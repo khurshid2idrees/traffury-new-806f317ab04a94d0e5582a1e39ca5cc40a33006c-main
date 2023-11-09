@@ -13,8 +13,6 @@ import 'swiper/css/navigation';
 // import required modules
 import { Autoplay } from 'swiper/modules';
 
-
-
 import '../../css/style.css';
 
 import adcombo from '../../assets/images/logos/adcombo.jpg';
