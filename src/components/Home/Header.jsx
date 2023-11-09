@@ -69,21 +69,24 @@ export default function Header() {
           }}
         />
       </div>
+
+      {/* <h2 className="md:text-6xl text-2xl font-bold tracking-tight text-black ">Direct Nutra {isMobile?null:<br/>} Advertiser</h2> */}
+
       <div className="mx-auto max-w-7xl px-6 lg:px-8 flex justify-between">
 
         <div>
+          <h2 className="md:text-6xl text-2xl font-bold tracking-tight text-black ">Direct Nutra {isMobile?null:<br/>} Advertiser</h2>
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-4xl font-bold tracking-tight text-black sm:text-6xl">Direct Nutra <br/> Advertiser</h2>
-          <p className="mt-6 text-xl leading-8 text-black">
+          <p className="mt-6 md:text-xl text-base md:leading-8 leading-5 text-black">
            Your trusted partner in CPA field with <br /> only in-house offers!
           </p>
         </div>
         <div className="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
 
 <a href="#contactus">
-  <button class="group relative h-12 w-44 overflow-hidden rounded-3xl bg-redbtn text-lg font-bold text-white">
+<button class="group relative h-8 w-28 md:h-12 md:w-44 overflow-hidden rounded-3xl bg-redbtn text-lg font-bold text-white">
     Join Now
-    <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div>
+    {/* <div class="absolute inset-0 h-full w-full scale-0 rounded-2xl transition-all duration-300 group-hover:scale-100 group-hover:bg-white/30"></div> */}
   </button>
   </a>
   </div>

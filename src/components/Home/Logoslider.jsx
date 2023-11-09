@@ -26,7 +26,8 @@ import terra from '../../assets/images/logos/terra.jpg';
 import metacpa from '../../assets/images/logos/metacpa.jpg';
 import monadlead from '../../assets/images/logos/monalead.jpg';
 import afstar from '../../assets/images/logos/affstar.jpg';
-import m1 from '../../assets/images/logos/m1.jpg';
+import Cpagetti  from '../../assets/images/logos/Cpagetti .jpg';
+import trafficlight  from '../../assets/images/logos/trafficlight.jpg';
 
 export default function Logoslider() {
 
@@ -54,8 +55,8 @@ export default function Logoslider() {
         // modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide><img src={adcombo}/></SwiperSlide>
-        <SwiperSlide><img src={kmbiz}/></SwiperSlide>
+        <SwiperSlide><img src={Cpagetti}/></SwiperSlide>
+        <SwiperSlide><img src={trafficlight}/></SwiperSlide>
         {/* <SwiperSlide><img src={leadrock}/></SwiperSlide> */}
         {/* <SwiperSlide><img src={lr}/></SwiperSlide> */}
         <SwiperSlide><img src={sn}/></SwiperSlide>

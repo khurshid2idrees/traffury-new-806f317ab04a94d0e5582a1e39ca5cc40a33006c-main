@@ -21,12 +21,13 @@ export default function Footer() {
                   action="https://formsubmit.co/rajatkrezzy@gmail.com"
                   method="post"
                 >
-                  <input
+                 <div className="flex">
+                 <input
                     id="email"
                     name="email"
                     required
                     type="text"
-                    class="px-4 py-2 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
+                    class="px-4 py-2 md:w-full w-8/12 text-gray-700 bg-white border rounded-md dark:bg-gray-900 dark:text-gray-300 dark:border-gray-600 focus:border-blue-400 dark:focus:border-blue-300 focus:outline-none focus:ring focus:ring-opacity-40 focus:ring-blue-300"
                     placeholder="Email Address"
                   />
                   <input type="hidden" name="_captcha" value="false"></input>
@@ -39,10 +40,11 @@ export default function Footer() {
 
                   <button
                     type="submit"
-                    class="w-full px-6 py-2.5 text-sm font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80"
+                    class="md:ml-4 ml-2 px-6 py-2.5 md:text-sm text-xs font-medium tracking-wider text-white transition-colors duration-300 transform md:w-auto md:mx-4 focus:outline-none bg-gray-800 rounded-lg hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80"
                   >
                     Subscribe
                   </button>
+                 </div>
                 </form>
               </div>
             </div>

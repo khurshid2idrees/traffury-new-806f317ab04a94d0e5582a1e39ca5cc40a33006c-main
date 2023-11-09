@@ -147,7 +147,6 @@ export default function Advantages() {
 </div>
 </SwiperSlide>
 
-
 ))}
       </Swiper>
                   
