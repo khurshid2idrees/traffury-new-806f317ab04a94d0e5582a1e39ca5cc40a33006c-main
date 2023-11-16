@@ -34,7 +34,7 @@ export default function Logoslider() {
   return (
    <>
 
-   <div className='pt-16'>
+   <div className='pt-16'>l
      <Swiper
         slidesPerView={isMobile?1:4}
         spaceBetween={30}

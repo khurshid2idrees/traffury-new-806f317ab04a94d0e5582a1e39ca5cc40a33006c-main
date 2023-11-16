@@ -29,6 +29,14 @@ import fat2fit from '../../assets/images/hotoffers/fat2fit.png';
 import diafix from '../../assets/images/hotoffers/diafix.png';
 import sexup from '../../assets/images/hotoffers/sexup.png';
 
+import massherb from '../../assets/images/hotoffers/massherb.png'
+import cardiomax from '../../assets/images/hotoffers/cardiomax.png'
+import slimQ5 from '../../assets/images/hotoffers/slimQ5.png'
+import strongfoot from '../../assets/images/hotoffers/strongfoot.png'
+import goodbyecarbs from '../../assets/images/hotoffers/goodbyecarbs.png'
+import enerflex from '../../assets/images/hotoffers/enerflex.png'
+import justherbs from '../../assets/images/hotoffers/justherbs.png'
+
 
 
 
@@ -37,65 +45,65 @@ const products = [
 
     {
       id: 1,
-      name: 'Penirun',
-      href: '#',
-      imageSrc: Penirun,
-      imageAlt: "Penirun",
-      price: '2699',
+      name: 'Massherb',
+      href: 'https://wonderforhealth.com/massherb-bd-sl1/',
+      imageSrc: massherb,
+      imageAlt: "Massherb",
+      price: '2521 BDT',
       color: 'Black',
     },
     {
       id: 2,
-      name: 'Big Boss',
-      href: 'https://wonderforhealth.com/bigg-boss-in-sl1/',
-      imageSrc: Bigboss,
-      imageAlt: "Big Boss",
-      price: '2699',
+      name: 'Cardio Max',
+      href: 'https://wonderforhealth.com/cardiomax-bd-sl1/',
+      imageSrc: cardiomax,
+      imageAlt: "Cardio maxx",
+      price: '2399 BDT',
       color: 'Black',
     },
     {
       id: 3,
-      name: 'Motto Keto',
-      href: 'https://wonderforhealth.com/motto-keto-in-sl1/',
-      imageSrc: mottoketo,
-      imageAlt: "Motto Keto",
-      price: '2499',
+      name: 'SlimQ5',
+      href: 'https://wonderforhealth.com/slimq5-za-sl1/',
+      imageSrc: slimQ5,
+      imageAlt: "slimq5",
+      price: '640 ZAR',
       color: 'Black',
     },
     {
       id: 4,
-      name: 'Aveda',
-      href: 'https://wonderforhealth.com/aveda-in-sl3/',
-      imageSrc: aveda,
-      imageAlt: "Aveda",
-      price: '2499',
+      name: 'Justherbs',
+      href: 'https://wonderforhealth.com/justherbs-bd-sl1/',
+      imageSrc: justherbs,
+      imageAlt: "justherbs",
+      price: '2399 BDT',
       color: 'Black',
     },
     {
       id: 5,
-      name: 'Long Nights',
-      href: 'https://wonderforhealth.com/longnights-in-sl1/',
-      imageSrc: longnights,
-      imageAlt: "Long Nights",
-      price: '2699',
+      name: 'Strong Foot',
+      href: 'https://wonderforhealth.com/strongfoot-ar-sl1/',
+      imageSrc: strongfoot,
+      imageAlt: "strong foot",
+      price: '19490 ARS',
       color: 'Black',
     },
     {
       id: 6,
-      name: 'Fat2fit',
-      href: 'https://wonderforhealth.com/fat2fit-in-sl1/',
-      imageSrc: fat2fit,
-      imageAlt: "Fat2fit",
-      price: '2499',
+      name: 'Goodbye Carbs',
+      href: 'https://wonderforhealth.com/goodbye-ar-sl1/',
+      imageSrc: goodbyecarbs,
+      imageAlt: "goodbye carbs",
+      price: '19490 ARS',
       color: 'Black',
     },
     {
       id: 7,
-      name: 'Diafix',
-      href: 'https://wonderforhealth.com/diafix-in-sl1/',
-      imageSrc: diafix,
-      imageAlt: "Diafix",
-      price: '2499',
+      name: 'Enerflex',
+      href: 'https://wonderforhealth.com/enerflex-bo-sl1/',
+      imageSrc: enerflex,
+      imageAlt: "enerflex",
+      price: '280 BS',
       color: 'Black',
     },
     {
