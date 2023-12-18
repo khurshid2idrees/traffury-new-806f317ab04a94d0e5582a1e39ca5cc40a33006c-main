@@ -23,9 +23,9 @@ export default function Advantages() {
 
     const isMobile = useMediaQuery({ maxWidth: 767 });
 
-    const backgroundImageUrl = 'url("https://raw.githubusercontent.com/khurshid2idrees/traffury-new-806f317ab04a94d0e5582a1e39ca5cc40a33006c-main/main/src/assets/images/advantageslogo/advantagebg.png")';
+    const backgroundImageUrl = 'url("https://raw.githubusercontent.com/khurshid2idrees/High On Lead-new-806f317ab04a94d0e5582a1e39ca5cc40a33006c-main/main/src/assets/images/advantageslogo/advantagebg.png")';
     
-    const backgroundMobileImageURL = 'url("https://raw.githubusercontent.com/khurshid2idrees/traffury-new-806f317ab04a94d0e5582a1e39ca5cc40a33006c-main/main/src/assets/images/advantageslogo/mobileadvantage.png")';
+    const backgroundMobileImageURL = 'url("https://raw.githubusercontent.com/khurshid2idrees/High On Lead-new-806f317ab04a94d0e5582a1e39ca5cc40a33006c-main/main/src/assets/images/advantageslogo/mobileadvantage.png")';
 
     const containerStyle = {
         backgroundImage: isMobile?backgroundMobileImageURL:backgroundImageUrl,

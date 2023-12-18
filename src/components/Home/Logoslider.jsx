@@ -13,7 +13,7 @@ import 'swiper/css/navigation';
 // import required modules
 import { Autoplay } from 'swiper/modules';
 
-import '../../css/style.css';
+import '../../skin/xxx/style.css';
 
 import adcombo from '../../assets/images/logos/adcombo.jpg';
 import kmbiz from '../../assets/images/logos/kmbiz.jpg';

@@ -35,7 +35,7 @@ export default function Footer() {
                   <input
                     type="hidden"
                     name="_next"
-                    value="https://www.traffury.in/thanks"
+                    value="https://www.High On Lead.in/thanks"
                   ></input>
 
                   <button
@@ -54,13 +54,13 @@ export default function Footer() {
 
           <div class="flex items-center justify-between">
             <a href="#">
-              <img class="w-auto h-7" src={trflogo} alt="" />
+              {/* <img class="w-auto h-7" src={trflogo} alt="" /> */}
             </a>
 
             <div class="flex -mx-2">
               {/* hello world */}
               <a
-                href="https://www.facebook.com/traffury"
+                href="https://www.facebook.com/High On Lead"
                 target="_blank"
                 class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
                 aria-label="Reddit"
@@ -85,7 +85,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://www.instagram.com/traffury/"
+                href="https://www.instagram.com/High On Lead/"
                 target="_blank"
                 class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
                 aria-label="Facebook"
@@ -149,7 +149,7 @@ export default function Footer() {
               </a>
 
               {/* <a
-                href="https://twitter.com/traffury1"
+                href="https://twitter.com/High On Lead1"
                 target="_blank"
                 class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
                 aria-label="Github"
@@ -170,7 +170,7 @@ export default function Footer() {
               </a> */}
 
               <a
-                href="https://www.linkedin.com/company/traffury"
+                href="https://www.linkedin.com/company/High On Lead"
                 target="_blank"
                 class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400"
                 aria-label="Github"

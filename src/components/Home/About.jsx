@@ -17,7 +17,7 @@ import '../../App.css'
 
 
 
-import '../../css/style.css';
+import '../../skin/xxx/style.css';
 import Testcomp from './Aboutslide';
 
 import customer1 from "../../assets/images/aboutpics/customer1.jpg"
@@ -53,7 +53,7 @@ export default function About({ testdata }) {
               <p class="mt-8 text-gray-600">
 
 
-                Traffury is a group of highly skilled and experienced affiliates, media buyers and digital marketers who have mastered the digital strategy to deliver maximum growth to businesses in India and overseas. We plan and create advanced strategies in-house for businesses that help to enhance their digital presence.
+                High On Lead is a group of highly skilled and experienced affiliates, media buyers and digital marketers who have mastered the digital strategy to deliver maximum growth to businesses in India and overseas. We plan and create advanced strategies in-house for businesses that help to enhance their digital presence.
                 <br /> <br />
                 We are passionate about doing the best work for our clients to transform them from market players to market leaders. We are a leading affiliate marketing company with a range of Nutra cod products. Our team offers bespoke services to meet different clients’ expectations and needs.
 
@@ -162,9 +162,9 @@ export default function About({ testdata }) {
 
                       <p className="line-clamp-2 text-sm sm:line-clamp-none mt-4 text-gray-500 md:py-8 py-16  text-left">
 
-                        Partnering with Traffury in the affiliate and digital marketing realm has been incredibly rewarding. Their 
+                        Partnering with High On Lead in the affiliate and digital marketing realm has been incredibly rewarding. Their 
                         strategies are like hidden treasures, elevating campaigns and boosting earnings. Don't miss out—if
-                         you're not with Traffury, you're missing out!
+                         you're not with High On Lead, you're missing out!
                       </p>
                     </blockquote>
 
@@ -246,7 +246,7 @@ export default function About({ testdata }) {
                       </div>
 
                       <p className="line-clamp-2 text-sm sm:line-clamp-none mt-4 text-gray-500 md:py-8 py-16 text-left">
-                      Traffury delivers astounding ROI, backed by unmatched dedication and data-driven strategies.
+                      High On Lead delivers astounding ROI, backed by unmatched dedication and data-driven strategies.
                        Their guidance multiplied my investments and fueled my business growth.
                       </p>
                     </blockquote>
@@ -329,8 +329,8 @@ export default function About({ testdata }) {
                       </div>
 
                       <p className="line-clamp-2 text-sm sm:line-clamp-none mt-4 text-gray-500 md:py-8 py-16 text-left">
-                      At Traffury, digital dreams come true. Their dedication and creativity propelled my business beyond imagination—boosting traffic, enhancing conversions—a true magic touch.
-                       Ready to transform your digital dreams into reality? Partner with Traffury for success.
+                      At High On Lead, digital dreams come true. Their dedication and creativity propelled my business beyond imagination—boosting traffic, enhancing conversions—a true magic touch.
+                       Ready to transform your digital dreams into reality? Partner with High On Lead for success.
                       </p>
                     </blockquote>
 
@@ -412,8 +412,8 @@ export default function About({ testdata }) {
                       </div>
 
                       <p className="line-clamp-2 text-sm sm:line-clamp-none mt-4 text-gray-500 md:py-8 py-16 text-left">
-                      Traffury: not just a company, but magicians turning clicks into gold! Their innovative techniques skyrocketed my business. With their secret recipe for success, dominating the online realm is yours.
-                       Choose Traffury, your ultimate mastermind.
+                      High On Lead: not just a company, but magicians turning clicks into gold! Their innovative techniques skyrocketed my business. With their secret recipe for success, dominating the online realm is yours.
+                       Choose High On Lead, your ultimate mastermind.
                       </p>
                     </blockquote>
 
@@ -495,7 +495,7 @@ export default function About({ testdata }) {
                       </div>
 
                       <p className="line-clamp-2 text-sm sm:line-clamp-none mt-4 text-gray-500 md:py-8 py-16 text-left">
-                      Traffury brings incredible ROI to the table, supported by an unwavering commitment to data-driven strategies. <br /> Their expert advice supercharged my investments and ignited remarkable business expansion
+                      High On Lead brings incredible ROI to the table, supported by an unwavering commitment to data-driven strategies. <br /> Their expert advice supercharged my investments and ignited remarkable business expansion
                       </p>
                     </blockquote>
 
